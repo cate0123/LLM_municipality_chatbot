@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Municipality Virtual Assistant – THEO</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div id="welcome-window" class="welcome-container fade-in">
+  <img src="../images/chatbot_logo.jpg" alt="Municipality Logo" class="logo">
+  <h5>HEY there <span class="wave-hand">👋</span> I'm THEO your Municipality Assistant</h5>
+  <button id="start-chat-btn">Ask me</button>
+</div>
+
+
+<div class="app" style="display: none;">   
+  <header>
+    <div class="title">
+      <span class="logo"> </span>
+      <div>
+        <h1>Welcome to Bushbuckridge Local </h1>
+        <p><h1>Municipality</h1></p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Chat window -->
+  <main id="chat-window" class="chat"></main>
+
+  <!-- Chat input form -->
+  <footer class="composer">
+    <form id="chat-form">
+      <input id="user-input" type="text" placeholder="Type your message here…" autocomplete="off" />
+      <button type="submit" title="Send">➤</button>
+    </form>
+  </footer>
+</div>
+
+<!-- Firebase App (core SDK) -->
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js";
+  import { getFirestore, collection, addDoc, getDocs, query, orderBy, onSnapshot } 
+    from "https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.js";
+  import { getAuth, signInAnonymously, onAuthStateChanged } 
+    from "https://www.gstatic.com/firebasejs/10.12.5/firebase-auth.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyDnLDVOy9zp5G2rPpBI8-l7YSKeqoNLQyU",
+    authDomain: "llm-chatbot-db.firebaseapp.com",
+    projectId: "llm-chatbot-db",
+    storageBucket: "llm-chatbot-db.firebasestorage.app",
+    messagingSenderId: "260690230624",
+    appId: "1:260690230624:web:b87e2c52568ad9de967205",
+    measurementId: "G-BE97CNMRJT"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
+  const auth = getAuth(app);
+
+  // from here you can paste in your scripts.js logic
+</script>
+<style>
+  /* Animation for fading */
+  .fade-in {
+    animation: fadeIn 0.5s forwards;
+  }
+
+  .fade-out {
+    animation: fadeOut 0.5s forwards;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+</style>
+<script>
+document.getElementById("start-chat-btn").addEventListener("click", function() {
+  const welcome = document.getElementById("welcome-window");
+  const app = document.querySelector(".app");
+
+  // Add fade-out effect
+  welcome.classList.remove("fade-in");
+  welcome.classList.add("fade-out");
+
+  // After animation ends, hide welcome and show chat
+  welcome.addEventListener("animationend", () => {
+    welcome.style.display = "none";
+    app.style.display = "flex"; // display flex to match your .app CSS
+  }, { once: true });
+});
+</script>
+
+
+<script type="module" src="./scripts.js"></script>
+
+
+
+
+</body>
+</html>

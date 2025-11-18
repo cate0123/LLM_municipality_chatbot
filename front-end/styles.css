@@ -1,0 +1,183 @@
+/* Basic reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #edeef0; /* light grey background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Chat container */
+.app {
+  width: 420px;
+  max-width: 100%;
+  background:#c3f5f7 ;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 640px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  overflow: hidden;
+}
+
+/* Header */
+header {
+  background: white;
+  padding: 16px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 16px;
+  font-weight: 600;
+  color: black; 
+}
+
+/* Chat messages area */
+#chat-window {
+  flex: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: auto;
+  background: #e4f9fa;
+}
+
+/* Row for avatar + bubble */
+.row {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.row.user {
+  flex-direction: row-reverse;
+}
+
+/* Chat bubbles */
+.bubble {
+  max-width: 75%;
+  padding: 12px 16px;
+  border-radius: 16px;
+  font-size: 14px;
+  line-height: 1.4;
+  word-wrap: break-word;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* Bot bubble */
+.bubble.bot {
+  background: #3f51b5; 
+  color: #ffffff;
+  border-bottom-left-radius: 4px;
+}
+
+/* User bubble */
+.bubble.user {
+  background: #e91eff; 
+  color: #ffffff;
+  border-bottom-right-radius: 4px;
+}
+
+/* Avatar circles */
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #ececec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.row.user .avatar {
+  background: #f7c6ff; /* lighter pink for user */
+}
+.composer {
+  padding: 10px;
+  background: #fff;
+  border-top: 1px solid #eee;
+}
+
+
+.composer form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.composer input {
+  flex: 1; 
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 20px; 
+  font-size: 14px;
+  outline: none;
+}
+
+.composer input:focus {
+  border-color: #e91eff;
+}
+
+
+.composer button {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%; 
+  background: #e91eff;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.composer button:hover {
+  background: #c017d6;
+}
+
+/* ----------------- Welcome Window / Logo Styling ----------------- */
+#welcome-window {
+  text-align: center;
+  padding: 40px;
+  margin: 100px auto;
+  width: 350px;
+  background: #e4f9fa;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+#welcome-window .logo {
+  width: 180px;
+  height: auto;
+  padding: 12px;
+  margin-bottom: 40px;
+  border-radius: 25%;
+
+}
+
+#welcome-window button {
+  background-color: rgb(39, 158, 238);
+  color: #f9f8fa;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#welcome-window button:hover {
+  background-color: #1708e4;
+}

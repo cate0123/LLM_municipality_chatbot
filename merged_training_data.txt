@@ -1,0 +1,107 @@
+report
+event
+bursary
+tender
+tourism
+leadership
+ordinary council sitting notice
+inyaka treatment work water supply interruption
+public notice section performance agreement
+inspection supplementary valuation roll lodging
+notice supplier contractor service provider acc
+planned shut inyaka command reservoir maintena
+notice supplier contractor service provider req
+invitation public participation review
+public protector south africa report allegation
+press statement house numbering street naming agent ap
+invitation bursary application academic year
+womens month celebration
+municipality
+quick link
+bushbuckridge
+position budget manager post ref ho
+post private secretary executive mayor contract linked office bearer post ref ho
+position manager office executive mayor contract appointment linked office bearer x post ref ho
+director technical service permanent
+manager information communication technology
+epwp x
+municipality
+quick link
+bushbuckridge
+head office
+information centre
+mhala dltc
+hluvukani region
+dwarsloop region
+lilydale region
+shatale region
+mkhuhlu region
+marite region
+agincourt region
+casteel region
+acornhoek region
+bohlabela transversal affair
+disaster centre
+mapulaneng dltc
+inyaka
+hluvukani dltc
+mafemani library
+hluvukani library
+mkhuhlu library
+shatale library
+acornhoek library
+mp stream library
+thulamahashe library
+maviljan
+bushbuckridge police station
+crime stop tipoff line
+fire department
+municipality
+quick link
+bushbuckridge
+GPS Coordinates: | 247558517305371776
+Head Office | 130650983
+Information Centre | 130650814
+Mhala DLTC | 130650816
+Hluvukani Region | 130650817
+Dwarsloop Region | 130650818
+Lilydale Region | 130650819
+Shatale Region | 130650820
+Mkhuhlu Region | 130650821
+Marite Region | 130650822
+Agincourt Region | 130650823
+Casteel Region | 130650824
+Acornhoek Region | 130650825
+Bohlabela Transversal Affairs | 130650826
+Disaster Centre | 130650827
+Mapulaneng DLTC | 130650828
+Inyaka | 130650980
+Hluvukani DLTC | 130650984
+Mafemani Library | 130650985
+Hluvukani Library | 130650986
+Mkhuhlu Library | 130650987
+Shatale Library | 130650988
+Acornhoek Library | 130650989
+MP Stream Library | 130650990
+Thulamahashe Library | 130650991
+Maviljan | 8775466252
+Bushbuckridge Police Station | 137995537
+Crime Stop Tip-off line | 860010111
+Fire Department | 605064020
+nan | 148050.0 | 146992.0 | 146992.0 | 146992.0 | 146992.0
+nan | 147778.0 | 146720.0 | 146720.0 | 146720.0 | 146720.0
+nan | 132150.0 | 131092.0 | 128119.0 | 119835.0 | 119835.0
+200.0 | 12896.0 | 12896.0 | 14536.0 | 21685.0 | 21685.0
+200.0 | 2732.0 | 2732.0 | 4065.0 | 5200.0 | 5200.0
+nan | 3430.0 | 3170.0 | 863.0 | 863.0 | 5917.0
+nan | 176858.0 | 176400.0 | 151431.0 | 147108.0 | 146720.0
+nan | 3430.0 | 3170.0 | 863.0 | 863.0 | 11826.0
+nan | 134918.0 | 133418.0 | 133418.0 | 131787.0 | 131787.0
+nan | 7317.0 | 7317.0 | 7317.0 | 6810.0 | 6810.0
+nan | 1510.0 | 1510.0 | 1510.0 | 1510.0 | 1510.0
+nan | 126091.0 | 124591.0 | 124591.0 | 123091.0 | 123091.0
+nan | 0.0 | 0.0 | 0.0 | 0.0 | 0.0
+nan | 0.0 | 0.0 | 0.0 | 0.0 | 0.0
+nan | 3430.0 | 3170.0 | 863.0 | 863.0 | 5917.0
+nan | 48942.0 | 37902.0 | 37902.0 | 37902.0 | 37902.0
+nan | 3430.0 | 3170.0 | 863.0 | 863.0 | 5917.0
