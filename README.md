@@ -9,9 +9,14 @@ The project is part of a research initiative titled:
 
 Key Features:
 •	Citizen Interaction: Enables residents to access municipal services and information via a conversational interface.
+
 •	AI-Powered Responses: Uses a Large Language Model to understand and respond to diverse queries in a natural, context-aware manner.
+
 •	Framework for Deployment: Includes guidelines for integrating chatbots into rural municipal websites to improve accessibility and efficiency.
+
 •	Scalable & Adaptable: Designed to be extended for different municipalities and service types.
+
+
 This project demonstrates how AI and LLM technologies can bridge the digital service gap in rural areas, fostering transparency, efficiency, and citizen engagement.
 
 
